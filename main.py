@@ -106,5 +106,6 @@ def chat():
     user_input = request.json['message']
     response = chatbot.respond(user_input)  # Assuming chatbot has a respond method
     return jsonify({'response': response})
-
+if __name__ == '__main__':
+    app.run(debug=False,host='0.0.0.0')
 
