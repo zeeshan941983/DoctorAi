@@ -1,6 +1,6 @@
-flask==3.0.3
-cv2==1.2.0
-pytesseract==0.3.10
-pandas== 2.2.2
-numpy==1.26.4
+flask
+cv2
+pytesseract
+pandas
+numpy
 
