@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - doctorai132
+name: Build and deploy Python app to Azure Web App - doctorAi132
 
 on:
   push:
@@ -65,14 +65,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_72A8D22347C249749A7352A5D4630E2B }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3C2655AEE0C4449D9F600EE45D1DAFEA }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_2E8AADCCBF444DD59B222EF1AFE155EF }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_3AB6A641FCFA4D248C24E5F05642F736 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_8B3BA659B0FE430C99BB7DD248A43096 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1AE819F63BB44975A1610244DB517755 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'doctorai132'
+          app-name: 'doctorAi132'
           slot-name: 'Production'
           
