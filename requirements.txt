@@ -1,6 +1,5 @@
-flask
-cv2
+Flask
+opencv-python
 pytesseract
 pandas
 numpy
-
