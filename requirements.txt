@@ -1,5 +1,5 @@
-Flask
-opencv-python
-pytesseract
-pandas
-numpy
+Flask==3.0.3
+opencv-python==4.9.0.80
+pytesseract==0.3.10
+pandas==2.2.2
+numpy==1.26.4
